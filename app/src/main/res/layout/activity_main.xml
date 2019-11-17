@@ -5,15 +5,17 @@
                                              xmlns:tools="http://schemas.android.com/tools"
                                              android:layout_width="match_parent"
                                              android:layout_height="match_parent"
-                                             tools:context=".MainActivity">
+                                              android:background="@drawable/background"
+                                             tools:context=".MainActivity"
+    >
 
   <Button
       android:id="@+id/button"
       android:layout_width="0dp"
-      android:layout_height="wrap_content"
-      android:background="@android:color/holo_green_light"
+      android:layout_height="60dp"
+      android:background="@drawable/custom_button"
       android:onClick="takePicture"
-      android:text="@string/take_picture"
+      android:text="Zrób zdjęcie"
       android:textColor="@android:color/background_light"
       android:textSize="18sp"
       android:textStyle="bold"
@@ -26,7 +28,7 @@
       android:layout_width="match_parent"
       android:layout_height="64dp"
       android:visibility="invisible"
-      app:cardBackgroundColor="@android:color/holo_green_dark"
+      app:cardBackgroundColor="#66F9B0"
       app:cardCornerRadius="0dp"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"

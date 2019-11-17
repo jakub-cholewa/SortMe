@@ -20,7 +20,7 @@ class SplashActivity : AppCompatActivity() {
     Handler().postDelayed({
 
       // Start activity
-      startActivity(Intent(this, MainActivity::class.java))
+      startActivity(Intent(this, LaunchActivity::class.java))
 
       // Animate the loading of new activity
       overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
