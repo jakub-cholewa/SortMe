@@ -1,0 +1,10 @@
+
+<resources>
+  <string name="app_name">SortMe</string>
+  <string name="error_taking_picture">Error taking picture</string>
+  <string name="picture_not_taken">Picture Not Taken!</string>
+  <string name="take_picture">TAKE PICTURE</string>
+  <string name="permission_message">I need permission to take pictures :(</string>
+  <string name="OK">OK</string>
+  <string name="error">Error</string>
+</resources>
